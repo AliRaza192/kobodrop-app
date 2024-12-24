@@ -1,7 +1,7 @@
 // import AppLogo from "../assets/logos/app_store.svg";
 // import GooglePlay from "../assets/logos/google_play.svg";
 // import StoreLink from "../common/StoreLink";
-import StoreLinksBtn from "../common/StoreLinksBtn";
+import StoreLinksBtn, { BtnTypes } from "../common/StoreLinksBtn";
 import Phone from "../assets/mockup.svg";
 import HeroImage from "../assets/hero.png";
 const Hero = () => {
@@ -15,7 +15,7 @@ const Hero = () => {
           Take Control of Your Finances Anytime, Anywhere with KoroDrop Discover
           the Smart way to Use Your Money!.
         </p>
-        <StoreLinksBtn />
+        <StoreLinksBtn type={BtnTypes.Standard} />
       </div>
       <div className="md:w-3/6 xl:mb-12 xl:overflow-hidden">
         <img
